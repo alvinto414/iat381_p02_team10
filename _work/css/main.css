@@ -5,6 +5,7 @@ html {
 }
 
 body {
+	font-family: sans-serif;
 	background-color: :#000;
 }
 
@@ -23,5 +24,9 @@ h2 {
 
 h3 {
 	color: #245187;
+}
+
+a:visited {
+	color: #A0A4A8;
 }
 
