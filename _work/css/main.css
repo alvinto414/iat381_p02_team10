@@ -1,2 +1,27 @@
 /* Stylesheet for BLUE Bookstore */
 
+html {
+	height: 100%;
+}
+
+body {
+	background-color: :#000;
+}
+
+p {
+	font-size: 1.07rem;
+	color: #387FD4;
+}
+
+h1 {
+	color: #132B47;
+}
+
+h2 {
+	color: #1D426E;
+}
+
+h3 {
+	color: #245187;
+}
+
