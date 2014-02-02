@@ -55,5 +55,6 @@ ul li {
 	font-size: 1.07rem;
 	color: #387FD4;
 	max-width: 50rem;
+	list-style-type: square;
 }
 
