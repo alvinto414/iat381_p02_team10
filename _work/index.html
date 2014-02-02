@@ -19,32 +19,48 @@
 		<h4>About</h4>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque imperdiet fermentum. Nunc lorem nibh, elementum sit amet condimentum ut, iaculis ac ante. Cras imperdiet lectus sed sem rutrum facilisis. Duis scelerisque venenatis nisi, eget dictum neque commodo vel. Suspendisse auctor risus id accumsan placerat. Aenean lobortis diam in rhoncus facilisis. Ut varius diam in enim bibendum, non feugiat nunc lacinia. Praesent hendrerit congue dolor. Duis imperdiet sagittis sem, id aliquet nunc lobortis sed. Cras volutpat eros vel mauris porttitor, non semper quam pellentesque. Maecenas faucibus auctor porta.</p>
 
-		<ul class="no-bullet">
+		<h4>Unordered list</h4>
+		<ul>
         	<li><em>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</em></li>
-        	<li>Aliquam tincidunt mauris eu risus.</li>
+        	<li>Aliquam tincidunt mauris eu risus</li>
       	</ul>
 
-      <ol class="ordered-list">
-        <li><em>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</em></li>
-        <li>Aliquam tincidunt mauris eu risus.</li>
-      </ol>
+      	<h4>Ordered list</h4>
+      	<ol>
+        	<li><em>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</em></li>
+       		 <li>Aliquam tincidunt mauris eu risus.</li>
+      	</ol>
 
-		    <!-- All valid forms must use a 'method' (for submitting the form), and an 'action' (which submits the form) -->
-    <form method="post" action="#" id="comments">
+      	<h4>Hyperlinks</h4>
+      	<a href="">hyperlink</a>
 
-      <!-- Labels are associated with 'ids', NOT with 'name' attributes --> 
-      <label for="form-name">Name:</label>
-      <!-- Input elements should have a 'type' defined to help with processing -->
-      <input type="text" id="form-name" name="form-name" placeholder="Jane Doe">
+      	<h4>Buttons</h4>
+      	<input type="submit" value="don't press me">
 
-      <label for="form-subject">Subject:</label>
-      <input type="text" id="form-subject" name="form-subject" placeholder="A title for your comment">
-      
-      <label for="form-comment">Comment:</label>
-      <!-- Textareas allow for multi-line text input instead of a single line -->
-      <textarea id="form-comment" name="form-comment" placeholder="Please place comment here"></textarea>
+		<!-- All valid forms must use a 'method' (for submitting the form), and an 'action' (which submits the form) -->
+		<h4>Review</h4>
+    	<form method="post" action="#" id="comments">
+	      <!-- Labels are associated with 'ids', NOT with 'name' attributes --> 
+	      <label for="form-name">Title:</label>
+	      <!-- Input elements should have a 'type' defined to help with processing -->
+	      <input type="text" id="form-name" name="form-name" placeholder="Jane Doe">
+	      
+	      <label for="form-rating">Rating:</label>
+	      <input type="radio" id="form-rating" value="1">1
+	      <input type="radio" id="form-rating" value="2">2
+	      <input type="radio" id="form-rating" value="3">3
+	      <input type="radio" id="form-rating" value="4">4
+	      <input type="radio" id="form-rating" value="5">5
 
-      <input type="submit" value="Submit your comment">
+	      <label for="form-comment">Feedback:</label>
+	      <!-- Textareas allow for multi-line text input instead of a single line -->
+	      <textarea id="form-comment" name="form-comment" placeholder="Please place feedback here"></textarea>
+
+	      <label for="form-recommend">Would you recommend this product to your friends:</label>
+	      <input type="radio" id="form-recommend" value="yes">yes
+	      <input type="radio" id="form-recommend" value="no">no
+
+	      <input type="submit" value="Submit your comment">
 
     </form>
 	</body>
