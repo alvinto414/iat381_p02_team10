@@ -12,6 +12,7 @@ body {
 p {
 	font-size: 1.07rem;
 	color: #387FD4;
+	max-width: 50rem;
 }
 
 h1 {
@@ -27,7 +28,7 @@ h3 {
 }
 
 h4 {
-	color: #132B47;
+	color: #245187;
 }
 
 h5 {
