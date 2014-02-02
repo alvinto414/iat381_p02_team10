@@ -6,6 +6,7 @@ html {
 
 body {
 	font-family: 'Roboto', sans-serif;
+	color: #000;
 	background-color: #FFF;
 }
 
@@ -61,4 +62,28 @@ ul li {
 	max-width: 50rem;
 	list-style-type: square;
 }
+
+form {
+	font-size: 0.7rem;
+}
+
+form label {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+	color: #245187;
+	display: block;
+	margin-top: 1rem;
+}
+
+form input, form textarea {
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.7rem;
+	color: #000;
+	margin-top: 1rem;
+}
+
+#form-submit {
+	display: block;
+}
+
 
