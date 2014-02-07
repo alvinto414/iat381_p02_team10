@@ -38,6 +38,10 @@ h5 {
 	color: #9e9e9e;
 }
 
+nav a.tab {
+	background-color: blue;
+}
+
 a:link {
 	color: black;
 }
