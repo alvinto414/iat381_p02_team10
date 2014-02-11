@@ -38,20 +38,26 @@ h5 {
 	color: #9e9e9e;
 }
 
-nav a.tab {
+#BLUE_Logo {
+	padding: 0rem;
+	display: inline-block;
+}
+
+nav a {
+	display: inline-block;
 	background-color: blue;
+	color: #FFFFFF;
+	padding: 1rem 1.25rem;
+	text-decoration: none;
+	width: 8%;
 }
 
-a:link {
-	color: black;
+nav a.tab {
+	background-color: #245187;
 }
 
-a:visited {
-	color: #A0A4A8;
-}
-
-a:hover, a:focus, a:active {
-	color: #132B47;
+nav a:link, a:visited, a:hover, a:focus, a:active {
+	color: #FFF;
 }
 
 ol li {
@@ -75,7 +81,7 @@ form label {
 	font-family: 'Roboto', sans-serif;
 	font-size: 1rem;
 	color: #245187;
-	display: block;
+	display: inline-block;
 	margin-top: 1rem;
 }
 
