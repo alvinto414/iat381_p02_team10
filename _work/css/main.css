@@ -47,9 +47,11 @@ nav a {
 	display: inline-block;
 	background-color: blue;
 	color: #FFFFFF;
-	padding: 1rem 1.25rem;
+	padding: 0.2rem 0.2rem;
+	margin-right: 0;
 	text-decoration: none;
-	width: 8%;
+	text-align: center;
+	width: 10%;
 }
 
 nav a.tab {
