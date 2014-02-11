@@ -10,6 +10,21 @@ body {
 	background-color: #FFF;
 }
 
+.centralize {
+	width: 100%;
+	max-width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+}
+
+img {
+	height: auto;
+	width: auto;
+	border: 0;
+	max-width: 100%;
+}
+
 p {
 	font-size: 1.07rem;
 	color: #387FD4;
@@ -47,11 +62,11 @@ nav a {
 	display: inline-block;
 	background-color: blue;
 	color: #FFFFFF;
-	padding: 0.2rem 0.2rem;
-	margin-right: 0;
+	padding: 1rem 1.25rem;
 	text-decoration: none;
 	text-align: center;
-	width: 10%;
+	float: left;
+	width: 100%;
 }
 
 nav a.tab {

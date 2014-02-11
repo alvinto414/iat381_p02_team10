@@ -39,3 +39,15 @@
 		width:100%;
 	}
 }
+
+/* Defining styles for our 6 column grid */
+
+.col-1of6 {
+	width: 16.666%;
+}
+
+@media (max-width: 490px){
+	.col-1of6 {
+		width: 100%;
+	}
+}
