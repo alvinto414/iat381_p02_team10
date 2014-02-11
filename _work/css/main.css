@@ -90,8 +90,11 @@ ul li {
 	list-style-type: square;
 }
 
-form {
+#search {
 	font-size: 0.7rem;
+	display: inline-block;
+	float: right;
+	margin-top: 2rem;
 }
 
 form label {
@@ -104,9 +107,11 @@ form label {
 
 form input, form textarea {
 	font-family: 'Roboto', sans-serif;
-	font-size: 0.7rem;
+	font-size: 1.25rem;
 	color: #000;
 	margin-top: 1rem;
+	width: 15rem;
+	height: 2rem;
 }
 
 #form-submit {
