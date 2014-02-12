@@ -167,6 +167,55 @@ nav a:link, a:visited, a:hover, a:focus, a:active {
 	color: blue;
 }
 
+#productDetail img {
+	display: inline-block;
+	margin: 0.8rem;
+	margin-left: 0rem;
+	margin-bottom: 0rem;
+	float: left;
+}
+
+#productDetail h1 {
+	display: inline-block;
+	margin-top: 1rem;
+}
+
+#productDetail h2 {
+	display: block;
+	font-size: 1rem;
+	margin: 0rem;
+}
+
+#productDetail h3 {
+	font-size: 1rem;
+	margin: 0rem;
+	margin-top: 1rem;
+}
+
+#productProfile {
+	display: block;
+}
+
+#productProfile h1{
+	display: inline-block;
+	margin: 0rem;
+	margin-top: 1rem;
+}
+
+#productAbout {
+	display: block;
+	margin-top: 9rem;
+	max-width: 60%;
+}
+
+#productAbout h3{
+	margin: 0rem;
+}
+
+#productAbout p{
+	margin-bottom: 2rem;
+}
+
 /*
 ol li {
 	font-size: 1.07rem;
