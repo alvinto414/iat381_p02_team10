@@ -18,6 +18,16 @@ body {
 	overflow: hidden;
 }
 
+.rightize {
+	float: right;
+	text-align: right;
+}
+
+.leftize {
+	float: left;
+	text-align: left;
+}
+
 img {
 	height: auto;
 	width: auto;
@@ -106,6 +116,26 @@ h6 {
 #BLUE_Logo {
 	padding: 0rem;
 	display: inline-block;
+}
+
+#shoppingcart img {
+	float: left;
+	margin-right: 1rem;
+}
+
+#shoppingcart h3, #shoppingcart h5 {
+	text-align: left;
+	margin-bottom: 0.1rem;
+}
+
+#shoppingcart .col-1of3 p {
+	padding-top: 2rem;
+	font-size: 1rem;
+}
+
+#shoppingcart h4 {
+	margin-top: 0.2rem;
+	margin-bottom: 0.2rem;
 }
 
 nav a {
