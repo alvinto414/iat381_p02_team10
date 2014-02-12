@@ -265,6 +265,11 @@ form input, form textarea {
 	display: block;
 }
 
+#aboutCompany p {
+	max-width: 50%;
+	margin-left: 1rem;
+}
+
 footer {
 	clear: both;
 	width: 100%;
