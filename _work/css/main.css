@@ -77,6 +77,16 @@ nav a:link, a:visited, a:hover, a:focus, a:active {
 	color: #FFF;
 }
 
+#profile {
+	display: inline-block;
+	float: right;
+}
+
+#profile a {
+	font-size: 0.75rem;
+	color: blue;
+}
+
 ol li {
 	font-size: 1.07rem;
 	color: #387FD4;
@@ -95,6 +105,7 @@ ul li {
 	display: inline-block;
 	float: right;
 	margin-top: 2rem;
+	margin-right: 0;
 }
 
 form label {
@@ -109,7 +120,7 @@ form input, form textarea {
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.25rem;
 	color: #000;
-	margin-top: 1rem;
+	/*margin-top: 1rem;*/
 	width: 15rem;
 	height: 2rem;
 }
