@@ -53,6 +53,29 @@ h5 {
 	color: #9e9e9e;
 }
 
+#newArrival{
+	display: block;
+}
+
+#hottestProducts{
+	display: block;
+}
+
+#multiProducts{
+	display: block;
+}
+
+#newArrival h4, h5{
+	margin: 0rem;
+}
+
+#hottestProducts h4, h5{
+	margin: 0rem;
+}
+#multiProducts h4, h5{
+	margin: 0rem;
+}
+
 #BLUE_Logo {
 	padding: 0rem;
 	display: inline-block;
