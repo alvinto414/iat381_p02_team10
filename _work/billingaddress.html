@@ -47,32 +47,48 @@
       </header>
       <h6><a href="_index.html">Home</a> > Check out</h6>
 
-      <div id="shoppingcart">
-        <div class="col-1of3">Item(s)</div>
-        <div class="col-1of3">Quantity</div>
-        <div class="col-1of3">Item Price</div>
-
-        <hr>
-
-        <div class="grid">
-          <div class="col-1of3">
-            <img id="product1" alt="product1" src="http://placehold.it/75x100"/>
-            <h3>Introduction to HTML</h3>
-            <h5>Joe Smith</h5>
-          </div>
-          <div class="col-1of3"><p>1</p></div>
-          <div class="col-1of3"><p>$14.00</p></div>
+      <div id="purchaseform">
+        <div id="progressbar" class="grid">
+          <div class="col-1of5">Shipping Address >>>>> </div>
+          <div class="col-1of5" id="current">Billing Address >>>>> </div>
+          <div class="col-1of5">Billing Method >>>>> </div>
+          <div class="col-1of5">Order Return >>>>> </div>
+          <div class="col-1of5">Complete</div>
         </div> <!-- end of grid -->
-        
-        <hr>
 
-        <div class="rightize">
-          <h4>Total: $14.00</h4>
-          <form action="shippingaddress.html">
-           <button type="submit">Continue</button>
+        <div>
+          <form id="radioform">
+            <input type="radio" name="address">same as shipping address
+          </form>
+          <form id="radioform">
+            <input type="radio" name="address">new billing address
+          </form>
+
+          <form id="infoForm">
+            <label for="form-fname">First name: </label>
+            <input type="text" name="form-fname">
+            <label for="form-lname">Last name: </label><input type="text" name="form-lname">
+            <label for="form-address">Address: </label><input type="text" name="form-address">
+            <label for="form-city">City: </label><input type="text" name="form-city">
+            <label for="form-province">Province: </label><input type="text" name="form-province">
+            <label for="form-province">Postal code: </label><input type="text" name="form-postal code">
+            <label for="form-phone">Phone number: </label><input type="text" name="form-phone">
           </form>
         </div>
-       </div><!-- end of shoppingcart -->
+
+        <div class="grid">
+          <div class="col-1of5">
+            <form action="shippingaddress.html">
+             <button type="submit">Back</button>
+            </form>
+          </div>
+          <div class="col-1of2">
+            <form action="billingaddress.html">
+             <button type="submit">Continue</button>
+            </form>
+          </div>
+        </div><!-- end of .grid -->
+       </div><!-- end of shippingaddress -->
 
       <footer>
         <a href="about.html">About Company</a>
