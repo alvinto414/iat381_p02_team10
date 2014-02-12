@@ -87,6 +87,7 @@ nav a:link, a:visited, a:hover, a:focus, a:active {
 	color: blue;
 }
 
+/*
 ol li {
 	font-size: 1.07rem;
 	color: #387FD4;
@@ -98,7 +99,7 @@ ul li {
 	color: #387FD4;
 	max-width: 50rem;
 	list-style-type: square;
-}
+}*/
 
 #search {
 	font-size: 0.7rem;
