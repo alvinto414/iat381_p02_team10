@@ -51,3 +51,18 @@
 		width: 100%;
 	}
 }
+
+/* Defining styles for our 4 column grid */
+
+.col-1of4 {
+	width: 25%;
+	text-align: left;
+	margin-bottom: 1rem;
+}
+
+@media (max-width: 600px){
+	.col-1of4 {
+		width: 100%;
+	}
+}
+
