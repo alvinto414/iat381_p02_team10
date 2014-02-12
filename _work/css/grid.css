@@ -1,4 +1,4 @@
-/* grid.css defining grids for my site */
+/* grid.css defining grids */
 
 [class*='col-'] {
 	float: left;

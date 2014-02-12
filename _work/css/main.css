@@ -158,13 +158,20 @@ nav a:link, a:visited, a:hover, a:focus, a:active {
 }
 
 #profile {
-	display: inline-block;
 	float: right;
+	text-align: right;
 }
 
 #profile a {
 	font-size: 0.75rem;
 	color: blue;
+	margin-right: 0.5rem;
+}
+
+#search {
+	font-size: 2rem;
+	display: block;
+	margin-top: 1.5rem;
 }
 
 #productDetail img {
@@ -216,41 +223,26 @@ nav a:link, a:visited, a:hover, a:focus, a:active {
 	margin-bottom: 2rem;
 }
 
-/*
-ol li {
-	font-size: 1.07rem;
-	color: #387FD4;
-	max-width: 50rem;
-}
-
-ul li {
-	font-size: 1.07rem;
-	color: #387FD4;
-	max-width: 50rem;
-	list-style-type: square;
-}*/
-
-#search {
-	font-size: 0.7rem;
-	display: inline-block;
-	float: right;
-	margin-top: 2rem;
-	margin-right: 0;
-}
-
 form label {
 	font-family: 'Roboto', sans-serif;
-	font-size: 1rem;
 	color: #245187;
-	display: inline-block;
-	margin-top: 1rem;
 }
 
 form input, form textarea {
 	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+	color: #000;
+	display: block;
+}
+
+#signin h3, #signin form {
+	text-align: left;
+}
+
+#profile form input {
+	font-family: 'Roboto', sans-serif;
 	font-size: 1.25rem;
 	color: #000;
-	/*margin-top: 1rem;*/
 	width: 15rem;
 	height: 2rem;
 }
