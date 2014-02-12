@@ -53,6 +53,32 @@ h5 {
 	color: #9e9e9e;
 }
 
+h6 {
+	color: #9e9e9e;
+}
+
+#filterPages {
+	color: #9e9e9e;
+	display: block;
+	padding-bottom: 0.5rem;
+	text-align: right;
+	font-size: 0.67rem;
+	width: 100%;
+}
+
+#filterPages h6 {
+	display: inline-block;
+	margin: 0;
+}
+
+#filterPages a:link, #filterPages a:visited, #filterPages a:hover, #filterPages a:focus, #filterPages a:active {
+	color: #9e9e9e;
+	padding-bottom: 0.5rem;
+	text-align: right;
+	font-size: 0.67rem;
+	width: 100%;
+}
+
 #newArrival{
 	display: block;
 }
