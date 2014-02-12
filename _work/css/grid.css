@@ -66,3 +66,27 @@
 	}
 }
 
+/* Defining styles for our sidebar menu */
+
+aside {
+	float: left;
+	width: 20%;
+	margin: 1.25rem 0;
+
+}
+
+aside nav a:link{
+	text-align: left;
+	background: transparent;
+	color:black;
+}
+
+aside ul li {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+aside ul {
+	margin: 0;
+}
+
