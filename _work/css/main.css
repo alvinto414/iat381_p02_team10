@@ -20,7 +20,7 @@ body {
 
 .rightize {
 	float: right;
-	text-align: right;
+	margin-right: 4rem;
 }
 
 .leftize {
@@ -256,6 +256,20 @@ form input, form textarea {
 }
 
 #form-submit {
+	display: block;
+}
+
+#addtocart {
+	border-left: 1px solid black;
+	padding-left: 1rem;
+}
+#addtocart form input{
+	font-size: 0.75rem;
+	width: 1.5rem;
+	height: 1.5rem;
+}
+
+#addtocart form button{
 	display: block;
 }
 
