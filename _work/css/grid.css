@@ -72,7 +72,7 @@ aside {
 	float: left;
 	width: 20%;
 	height: 100%;
-	margin-right: 1.1rem;
+	margin-right: 1rem;
 	color: red;
 }
 
@@ -96,6 +96,11 @@ aside ul .sub-genre{
 aside ul li a:link, aside ul li a:visited, aside ul li a:hover{
 	font-size: 0.75rem;
 	color: black;
+}
+
+#productWrap {
+	float: right;
+	width: 78%;
 }
 
 /* Defining styles for our 5 column grid */
