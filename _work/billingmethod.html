@@ -50,40 +50,39 @@
       <div id="purchaseform">
         <div id="progressbar" class="grid">
           <div class="col-1of5">Shipping Address >>>>> </div>
-          <div class="col-1of5" id="current">Billing Address >>>>> </div>
-          <div class="col-1of5">Billing Method >>>>> </div>
+          <div class="col-1of5">Billing Address >>>>> </div>
+          <div class="col-1of5" id="current">Billing Method >>>>> </div>
           <div class="col-1of5">Order Return >>>>> </div>
           <div class="col-1of5">Complete</div>
         </div> <!-- end of grid -->
 
         <div>
           <form id="radioform">
-            <input type="radio" name="address">same as shipping address
+            <input type="radio" name="card">Visa
+          </form>
+          <form id="infoForm">
+            <label for="form-name">Card holder's name: </label>
+            <input type="text" name="form-name">
+            <label for="form-cardnum">Card number: </label><input type="text" name="form-cardnum">
+            <label for="form-cvn">CVN number: </label><input type="text" name="form-cvn">
+            <label for="form-date">Expiry date: </label><input type="text" name="form-date">
           </form>
           <form id="radioform">
-            <input type="radio" name="address">new billing address
+            <input type="radio" name="card">Master Card
           </form>
-
-          <form id="infoForm">
-            <label for="form-fname">First name: </label>
-            <input type="text" name="form-fname">
-            <label for="form-lname">Last name: </label><input type="text" name="form-lname">
-            <label for="form-address">Address: </label><input type="text" name="form-address">
-            <label for="form-city">City: </label><input type="text" name="form-city">
-            <label for="form-province">Province: </label><input type="text" name="form-province">
-            <label for="form-province">Postal code: </label><input type="text" name="form-postal code">
-            <label for="form-phone">Phone number: </label><input type="text" name="form-phone">
+          <form id="radioform">
+            <input type="radio" name="card">American Express
           </form>
         </div>
 
         <div class="grid">
           <div class="col-1of5">
-            <form action="shippingaddress.html">
+            <form action="billingaddress.html">
              <button type="submit">Back</button>
             </form>
           </div>
           <div class="col-1of2">
-            <form action="billingmethod.html">
+            <form action="orderreturn.html">
              <button type="submit">Continue</button>
             </form>
           </div>
