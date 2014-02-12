@@ -296,7 +296,7 @@ form input, form textarea {
 	max-width: 60%;
 }
 
-#policy, #customerService p {
+#policy p, #customerService p {
 	max-width: 80%;
 	margin-left: 1rem;
 }
