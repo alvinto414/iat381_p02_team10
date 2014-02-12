@@ -265,10 +265,32 @@ form input, form textarea {
 	display: block;
 }
 
+#aboutCompany {
+	display: inline-block;
+	max-width: 60%;
+}
+
 #aboutCompany p {
-	max-width: 50%;
+	max-width: 80%;
 	margin-left: 1rem;
 }
+
+#contactUs {
+	margin-top: 2rem;
+}
+
+#contactUs h5{
+	color: #245187;
+}
+
+#contactUs ul {
+	padding-left: 0.8rem;
+	list-style-type: none;
+	font-size: 0.8rem;
+	margin: 0rem;
+	color: #245187;
+}
+
 
 footer {
 	clear: both;
