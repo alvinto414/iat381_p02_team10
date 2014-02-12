@@ -296,9 +296,13 @@ form input, form textarea {
 	max-width: 60%;
 }
 
-#policy p, #customerService p {
+#policy p, #customerService p, #faq p, #faq h3 {
 	max-width: 80%;
 	margin-left: 1rem;
+}
+
+#faq h3 {
+	margin-bottom: 0rem;
 }
 
 #progressbar {
