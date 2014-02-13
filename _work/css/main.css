@@ -171,7 +171,13 @@ nav a:link, nav a:visited, nav a:hover, nav a:focus, nav a:active {
 #search {
 	font-size: 2rem;
 	display: block;
-	margin-top: 1.5rem;
+	float: right;
+	margin-top: 3rem;
+}
+
+#productWrap {
+	float: right;
+	width: 78%;
 }
 
 #productDetail img {
