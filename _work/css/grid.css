@@ -6,8 +6,38 @@
 	text-align: center;
 }
 
+.col-logo {
+
+}
+
+@media (max-width: 600px){
+	.col-logo {
+		width: 100%;
+	}
+}
+
+
+
 .col-1of2 {
 	width: 50%;
+}
+
+.col-searchBar {
+
+}
+
+@media (max-width: 600px){
+	.col-searchBar {
+		width: 100%;
+	}
+
+	#search {
+		margin: 0rem;
+	}
+
+	#profile form input{
+	width: 100%;
+	}
 }
 
 .grid:after {
@@ -98,11 +128,6 @@ aside ul li a:link, aside ul li a:visited, aside ul li a:hover{
 	color: black;
 }
 
-#productWrap {
-	float: right;
-	width: 78%;
-}
-
 /* Defining styles for our 5 column grid */
 
 .col-1of5 {
@@ -114,6 +139,16 @@ aside ul li a:link, aside ul li a:visited, aside ul li a:hover{
 @media (max-width: 600px){
 	.col-1of5 {
 		width: 100%;
+	}
+}
+
+.hideMobile {
+
+}
+
+@media (max-width: 600px){
+	.hideMobile {
+		
 	}
 }
 
