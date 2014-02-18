@@ -215,18 +215,24 @@ nav a:link, nav a:visited, nav a:hover, nav a:focus, nav a:active {
 	margin-top: 1rem;
 }
 
-#productAbout {
+.mainContent {
 	display: block;
-	margin-top: 10rem;
 	max-width: 60%;
 }
 
-#productAbout h3{
+.mainContent h1{
+	display: block;
+	margin-top: 0rem;
+	max-width: 60%;
+}
+
+.mainContent h3{
 	margin: 0rem;
 }
 
-#productAbout p{
+.mainContent p{
 	margin-bottom: 2rem;
+	max-width: 60%;
 }
 
 form label {
@@ -302,7 +308,7 @@ form input, form textarea {
 	max-width: 60%;
 }
 
-#policy p, #customerService p, #faq p, #faq h3 {
+.mainContent p, #policy p, #customerService p, #faq p, #faq h3 {
 	max-width: 80%;
 	margin-left: 1rem;
 }

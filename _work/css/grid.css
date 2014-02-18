@@ -142,13 +142,29 @@ aside ul li a:link, aside ul li a:visited, aside ul li a:hover{
 	}
 }
 
-.hideMobile {
+.productContent {
 
 }
 
 @media (max-width: 600px){
-	.hideMobile {
-		
+	.productContent {
+		display: block;
+		margin-left: 0rem;
+		width:100%;
 	}
+
+	.mainContent {
+		display: block;
+		margin-left: 0rem;
+		max-width:100%;
+	}
+
+	#productWrap {
+	float: left;
+	width: 100%;
+	}
+
 }
+
+
 
