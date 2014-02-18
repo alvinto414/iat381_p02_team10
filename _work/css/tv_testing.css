@@ -1,0 +1,374 @@
+@media (max-width: 1280px) {
+	/* Stylesheet for BLUE Bookstore */
+
+	html {
+		height: 100%;
+	}
+
+	body {
+		font-family: 'Roboto', sans-serif;
+		color: #000;
+		background-color: #FFF;
+	}
+
+	.centralize {
+		width: 100%;
+		max-width: 1000px;
+		margin-right: auto;
+		margin-left: auto;
+		overflow: hidden;
+	}
+
+	.rightize {
+		float: right;
+		margin-right: 4rem;
+	}
+
+	.leftize {
+		float: left;
+		text-align: left;
+	}
+
+	img {
+		height: auto;
+		width: auto;
+		border: 0;
+		max-width: 100%;
+	}
+
+	p {
+		font-size: 1.07rem;
+		color: #387FD4;
+		max-width: 50rem;
+		margin-top: 0;
+	}
+
+	h1 {
+		color: #132B47;
+	}
+
+	h2 {
+		color: #1D426E;
+	}
+
+	h3 {
+		color: #245187;
+	}
+
+	h4 {
+		color: #245187;
+		margin-bottom: 0;
+	}
+
+	h5 {
+		color: #9e9e9e;
+	}
+
+	h6 {
+		color: #9e9e9e;
+	}
+
+	#filterPages {
+		color: #9e9e9e;
+		display: block;
+		padding-bottom: 0.5rem;
+		text-align: right;
+		font-size: 0.67rem;
+		width: 100%;
+	}
+
+	#filterPages h6 {
+		font-size: 0.8rem;
+		display: inline-block;
+		margin: 0;
+	}
+
+	#filterPages a:link, #filterPages a:visited, #filterPages a:hover, #filterPages a:focus, #filterPages a:active {
+		color: #9e9e9e;
+		padding-bottom: 0.5rem;
+		text-align: right;
+		font-size: 0.67rem;
+		width: 100%;
+	}
+
+	#newArrival{
+		display: block;
+	}
+
+	#hottestProducts{
+		display: block;
+	}
+
+	#multiProducts{
+		display: block;
+	}
+
+	#newArrival h4, h5{
+		margin: 0rem;
+	}
+
+	#hottestProducts h4, h5{
+		margin: 0rem;
+	}
+	#multiProducts h4, h5{
+		margin: 0rem;
+	}
+
+	#BLUE_Logo {
+		padding: 0rem;
+		display: inline-block;
+	}
+
+	#shoppingcart img {
+		float: left;
+		margin-right: 1rem;
+	}
+
+	#shoppingcart h3, #shoppingcart h5 {
+		text-align: left;
+		margin-bottom: 0.1rem;
+	}
+
+	#shoppingcart .col-1of3 p {
+		padding-top: 2rem;
+		font-size: 1rem;
+	}
+
+	#shoppingcart h4 {
+		margin-top: 0.2rem;
+		margin-bottom: 0.2rem;
+	}
+
+	nav a {
+		display: inline-block;
+		background-color: blue;
+		color: #FFFFFF;
+		padding: 1rem 1.25rem;
+		text-decoration: none;
+		text-align: center;
+		float: left;
+		width: 100%;
+	}
+
+	nav a.tab {
+		background-color: #245187;
+	}
+
+	nav a:link, nav a:visited, nav a:hover, nav a:focus, nav a:active {
+		color: #FFF;
+	}
+
+	#profile {
+		float: right;
+		text-align: right;
+	}
+
+	#profile a {
+		font-size: 0.75rem;
+		color: blue;
+		margin-right: 0.5rem;
+	}
+
+	#search {
+		font-size: 2rem;
+		display: block;
+		float: right;
+		margin-top: 3rem;
+	}
+
+	#productWrap {
+		float: right;
+		width: 78%;
+	}
+
+	#productDetail img {
+		display: inline-block;
+		margin: 0.8rem;
+		margin-left: 0rem;
+		margin-bottom: 0rem;
+		float: left;
+	}
+
+	#productDetail h1 {
+		display: inline-block;
+		margin-top: 1rem;
+	}
+
+	#productDetail h2 {
+		display: block;
+		font-size: 1rem;
+		margin: 0rem;
+	}
+
+	#productDetail h3 {
+		font-size: 1rem;
+		margin: 0rem;
+		margin-top: 1rem;
+	}
+
+	#productProfile {
+		display: block;
+	}
+
+	#productProfile h1{
+		display: inline-block;
+		margin: 0rem;
+		margin-top: 1rem;
+	}
+
+	.mainContent {
+		display: block;
+		max-width: 60%;
+	}
+
+	.mainContent h1{
+		display: block;
+		margin-top: 0rem;
+		max-width: 60%;
+	}
+
+	.mainContent h3{
+		margin: 0rem;
+	}
+
+	.mainContent p{
+		margin-bottom: 2rem;
+		max-width: 60%;
+	}
+
+	form label {
+		font-family: 'Roboto', sans-serif;
+		color: #245187;
+	}
+
+	form input, form textarea {
+		font-family: 'Roboto', sans-serif;
+		font-size: 1rem;
+		color: #000;
+		display: block;
+	}
+
+	#signin h3, #signin form {
+		text-align: left;
+	}
+
+	#profile form input {
+		font-family: 'Roboto', sans-serif;
+		font-size: 1.25rem;
+		color: #000;
+		width: 15rem;
+		height: 2rem;
+	}
+
+	#form-submit {
+		display: block;
+	}
+
+	#addtocart {
+		border-left: 1px solid black;
+		padding-left: 1rem;
+	}
+	#addtocart form input{
+		font-size: 0.75rem;
+		width: 1.5rem;
+		height: 1.5rem;
+	}
+
+	#addtocart form button{
+		display: block;
+	}
+
+	#aboutCompany {
+		display: inline-block;
+		max-width: 60%;
+	}
+
+	#aboutCompany p {
+		max-width: 80%;
+		margin-left: 1rem;
+	}
+
+	#contactUs {
+		margin-top: 2rem;
+	}
+
+	#contactUs h5{
+		color: #245187;
+	}
+
+	#contactUs ul {
+		padding-left: 0.8rem;
+		list-style-type: none;
+		font-size: 0.8rem;
+		margin: 0rem;
+		color: #245187;
+	}
+
+	#policy, #customerService {
+		display: inline-block;
+		max-width: 60%;
+	}
+
+	.mainContent p, #policy p, #customerService p, #faq p, #faq h3 {
+		max-width: 80%;
+		margin-left: 1rem;
+	}
+
+	#faq h3 {
+		margin-bottom: 0rem;
+	}
+
+	#progressbar {
+		color: #DDD;
+		padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+	}
+
+	#progressbar #current {
+		color: blue;
+	}
+
+	#purchaseform form {
+		margin-left: 1rem;
+	}
+
+	#purchaseform #infoForm {
+		margin-left: 4rem;
+	}
+
+	#radioform input {
+		display: inline-block;
+		margin-bottom: 1rem;
+	}
+
+	#purchaseReview {
+		margin-left: 1.5rem;
+		margin-bottom: 1rem;
+	}
+
+	#cartsummary {
+		margin-right: 8rem;
+	}
+
+	#purchaseReview .leftize {
+		float: left;
+	}
+
+	footer {
+		clear: both;
+		width: 100%;
+		height: 4rem;
+		padding: 1rem 0 0.2rem 0;
+		background-color: #245187;
+		margin-bottom: 1rem;
+		text-align: center;
+		margin-top: 2rem;
+
+	}
+
+	footer a, p{
+		font-size: 0.75rem;
+		margin-right: 1rem;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
