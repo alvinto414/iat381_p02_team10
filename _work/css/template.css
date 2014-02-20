@@ -1,0 +1,176 @@
+/* Unified CSS */
+
+body {
+		font-family: 'Roboto', sans-serif;
+		color: #000;
+		background-color: #FFF;
+}
+
+img {
+	height: auto;
+	width: auto;
+	border: 0;
+	max-width: 100%;
+}
+
+p {
+	font-size: 1.07rem;
+	color: #387FD4;
+	max-width: 50rem;
+	margin-top: 0;
+}
+
+h1 {
+	color: #132B47;
+}
+
+h2 {
+	color: #1D426E;
+}
+
+h3 {
+	color: #245187;
+}
+
+h4 {
+	color: #245187;
+	margin-bottom: 0;
+}
+
+h5 {
+	color: #9e9e9e;
+}
+
+h6 {
+	color: #9e9e9e;
+}
+
+.centralize {
+		width: 100%;
+		max-width: 1000px;
+		margin-right: auto;
+		margin-left: auto;
+		overflow: hidden;
+}
+
+/* class of logo */
+.logo {
+	margin: 0rem;
+	display: inline-block;
+}
+
+/* class of member: signin, register, my account, cart */
+.member {
+	float: right;
+	text-align: right;
+}
+
+.member a {
+	font-size: 0.75rem;
+	color: blue;
+	margin-right: 0.5rem;
+}
+
+.search {
+	font-size: 2rem;
+	margin-top: 2.5rem;
+	display: block;
+}
+
+form input {
+	font-size: 1.25rem;
+	color: #000;
+	width: 20rem;
+	height: 2rem;
+}
+
+/* navigation */
+nav a {
+	display: inline-block;
+	background-color: blue;
+	color: #FFFFFF;
+	padding: 1rem 1.25rem;
+	text-decoration: none;
+	text-align: center;
+	float: left;
+	width: 100%;
+}
+
+nav a.tab {
+	background-color: #245187;
+}
+
+nav a:link, nav a:visited, nav a:hover, nav a:focus, nav a:active {
+	color: #FFF;
+}
+
+/* carousel */
+.carousel {
+	width: 100%;
+}
+
+/* main content */
+.mainContent {
+	float: right;
+	max-width: 78%;
+	margin-top: 1.5rem;
+}
+
+/* product grid */
+.productGrid:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.productGrid h4, .productGrid h5{
+	margin: 0rem;
+}
+
+.productGrid h6 {
+	margin-top: 1rem;
+	font-size: 1.25rem;
+}
+
+.filters {
+	color: #9e9e9e;
+	display: block;
+	padding-bottom: 0.5rem;
+	text-align: right;
+	font-size: 0.67rem;
+	width: 100%;
+}
+
+.filters h6 {
+	font-size: 0.8rem;
+	display: inline-block;
+	margin: 0;
+}
+
+.filters a:link, .filters a:visited, .filters a:hover, #filterPages a:focus, #filterPages a:active {
+	color: #9e9e9e;
+	padding-bottom: 0.5rem;
+	text-align: right;
+	font-size: 0.67rem;
+	width: 100%;
+}
+
+/* fooooooooter */
+footer {
+	clear: both;
+	width: 100%;
+	height: 4rem;
+	padding: 1rem 0 0.2rem 0;
+	background-color: #245187;
+	margin-bottom: 1rem;
+	text-align: center;
+	margin-top: 2rem;
+
+}
+
+footer a, p{
+	font-size: 0.75rem;
+	margin-right: 1rem;
+	margin-right: auto;
+	margin-left: auto;
+}

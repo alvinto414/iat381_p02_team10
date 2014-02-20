@@ -6,10 +6,11 @@
     <title>BLUE Bookstore</title>
     <!-- Link to Google Fonts - Roboto -->
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-	<!-- Link to CSS -->
+	<!-- Link to CSS 
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-  <link rel="stylesheet" type="text/css" href="css/desktop.css">
+  <link rel="stylesheet" type="text/css" href="css/desktop.css">-->
   <link rel="stylesheet" type="text/css" href="css/grid.css">
+  <link rel="stylesheet" type="text/css" href="css/template.css">
   </head>
   <body>
     <div id="wrapper" class="centralize">
@@ -17,15 +18,16 @@
         <a href="_index.html">
           <img id="BLUE_Logo" alt="BLUE_Logo" src="http://placehold.it/300x100"/>
         </a>
-        <div id="profile" class="grid">
+        <div class="member">
           <a href="signin.html">Sign In/Register</a>
           <a href="account.html">My Account</a>
           <a href="shoppingcart.html">Cart (1)</a>
-          <form id="search" class="col-searchBar">
+          <form class="search">
             <input type="text" name="form-search" placeholder="Search">
           </form>
-        </div><!-- end of profile -->
-        <nav id="mainMenu" class="grid">
+        </div><!-- end of member -->
+      </header>
+              <nav id="mainMenu" class="grid">
           <div class="col-1of6">
             <a href="_index.html" class="tab">Home</a>
           </div>
@@ -45,11 +47,10 @@
           <a href="events.html" class="tab">Events</a>
           </div>
         </nav><!-- end of mainMenu .grid -->
-      </header>
-      <section id="carousel">
+      <section class="carousel">
         <img alt="promotion_1" src="http://placehold.it/1000x400"/>
       </section><!-- end of carousel -->
-      <section class="grid" id="newArrival">
+      <section class="productGrid">
         <h2>New Arrivals</h2>
         <div class="col-1of4">
           <img alt="product1" src="http://placehold.it/150x200"/>
@@ -77,7 +78,7 @@
         </div>
         <hr>
       </section>
-      <section id="hottestProducts">
+      <section class="productGrid">
         <h2>Hottest Products</h2>
         <div class="col-1of4">
           <img alt="product5" src="http://placehold.it/150x200"/>

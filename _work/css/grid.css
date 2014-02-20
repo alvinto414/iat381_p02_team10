@@ -11,16 +11,16 @@
 }
 
 @media (max-width: 600px){
-	.col-logo {
+	.logo {
 		width: 100%;
 	}
 
-	#profile a
+	#member a
 	{
 		font-size: 1rem;
 	}
 
-	.col-searchBar {
+	.search {
 		width: 100%;
 	}
 
@@ -28,7 +28,7 @@
 		margin: 0rem;
 	}
 
-	#profile form input{
+	form input{
 	width: 100%;
 	}
 }
@@ -57,11 +57,11 @@
 	width: 33.333%;
 }
 
-@media (max-width: 600px) {
+/*@media (max-width: 600px) {
 	.col-1of3 {
 		width:100%;
 	}
-}
+}*/
 
 /* Defining styles for our 6 column grid */
 
@@ -69,11 +69,11 @@
 	width: 16.667%;
 }
 
-@media (max-width: 600px){
+/*@media (max-width: 600px){
 	.col-1of6 {
 		width: 100%;
 	}
-}
+}*/
 
 /* Defining styles for our 4 column grid */
 
@@ -83,11 +83,11 @@
 	margin-bottom: 1rem;
 }
 
-@media (max-width: 600px){
+/*@media (max-width: 600px){
 	.col-1of4 {
 		width: 100%;
 	}
-}
+}*/
 
 /* Defining styles for our sidebar menu */
 
@@ -97,6 +97,7 @@ aside {
 	height: 100%;
 	margin-right: 1rem;
 	color: red;
+	display: inline-block;
 }
 
 aside h3 {
@@ -129,14 +130,30 @@ aside ul li a:link, aside ul li a:visited, aside ul li a:hover{
 	margin-bottom: 1rem;
 }
 
-@media (max-width: 600px){
+/*@media (max-width: 600px){
 	.col-1of5 {
 		width: 100%;
 	}
-}
+}*/
 
 
 @media (max-width: 600px){
+	.col-1of3 {
+		width:100%;
+	}
+
+	.col-1of4 {
+		width: 100%;
+	}
+
+	.col-1of5 {
+		width: 100%;
+	}
+
+	.col-1of6 {
+		width: 100%;
+	}
+
 	.productContent {
 		display: block;
 		margin-left: 0rem;
