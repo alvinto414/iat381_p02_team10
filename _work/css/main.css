@@ -455,6 +455,10 @@ footer a, p{
 		margin-left: 2rem;
 	}
 
+	.productContent {
+		margin-left: 2rem;
+	}
+
 	.mainContent p {
 		max-width: 90%;
 	}
