@@ -2,28 +2,30 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BLUE Bookstore</title>
     <!-- Link to Google Fonts - Roboto -->
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-	<!-- Link to CSS -->
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+  <!-- Link to CSS -->
+  <link rel="stylesheet" type="text/css" href="css/template.css">
   <link rel="stylesheet" type="text/css" href="css/grid.css">
   </head>
   <body>
     <div id="wrapper" class="centralize">
             <header>
         <a href="_index.html">
-          <img id="BLUE_Logo" alt="BLUE_Logo" src="http://placehold.it/300x100"/>
+          <img id="BLUE_Logo" alt="BLUE_Logo" src="img/logo/logo.jpg"/>
         </a>
-        <div id="profile" class="grid">
+        <div class="member">
           <a href="signin.html">Sign In/Register</a>
           <a href="account.html">My Account</a>
           <a href="shoppingcart.html">Cart (1)</a>
-          <form id="search" class="col-searchBar">
+          <form class="search">
             <input type="text" name="form-search" placeholder="Search">
           </form>
-        </div><!-- end of profile -->
-        <nav id="mainMenu" class="grid">
+        </div><!-- end of member -->
+      </header>
+              <nav id="mainMenu" class="grid">
           <div class="col-1of6">
             <a href="_index.html" class="tab">Home</a>
           </div>
@@ -44,123 +46,75 @@
           </div>
         </nav><!-- end of mainMenu .grid -->
       </header>
+
       <aside>
         <h3>Gifts</h3>
           <ul>
             <li class="genre">
-              <a href="">Art and Architecture</a>
+              <a href="">For Him</a>
             </li>
             <li class="genre">
-              <a href="">Biography</a>
+              <a href="">For Her</a>
             </li>
             <li class="genre">
-              <a href="">Business</a>
+              <a href="">Gift Cards</a>
             </li>
             <li class="genre">
-              <a href="">Computers</a>
-            </li>
-            <li class="sub-genre">
-              <a href="">Advanced</a>
-            </li>
-            <li class="sub-genre">
-              <a href="">Apples</a>
-            </li>
-            <li class="sub-genre">
-              <a href="">Software</a>
-            </li>
-            <li class="genre">
-              <a href="">Entertainment</a>
+              <a href="">Occasion Cards</a>
             </li>
           </ul>
       </aside>
-      <div id="productWrap">
-      <section id="newArrival">
-        <h2>New Arrivals</h2>
-        <div id="product1" class="col-1of4">
-          <img id="product1" alt="product1" src="http://placehold.it/150x200"/>
-          <h4>Introduction to HTML</h4>
-          <h5>by John Smith</h5>
-        </div>
-        <div id="product2" class="col-1of4">
-          <img id="product2" alt="product2" src="http://placehold.it/150x200"/>
-          <h4>Introduction to HTML</h4>
-          <h5>by John Smith</h5>
-        </div>
-        <div id="product3" class="col-1of4">
-          <img id="product3" alt="product3" src="http://placehold.it/150x200"/>
-          <h4>Introduction to HTML</h4>
-          <h5>by John Smith</h5>
-        </div>
-        <div id="product4" class="col-1of4">
-          <img id="product4" alt="product4" src="http://placehold.it/150x200"/>
-          <h4>Introduction to HTML</h4>
-          <h5>by John Smith</h5>
-        </div>
-        <hr>
-      </section>
-      <section id="multiProducts">
-        <div id="filterPages">
-          <h6>1 - 10 of 189</h6>
-          <a href=""> <</a>
-          <a href="">1</a>
-          <a href="">2</a>
-          <a href="">3</a>
-          <a href=""> ></a>
-          <select>
-            <option value="0">---</option>
-            <option value="1">By Price</option>
-            <option value="2">By Ratings</option>
-            <option value="3">By Alphabets</option>
-          </select>
-        </div>
-        <div id="product5" class="col-1of4">
-          <img id="product5" alt="product5" src="http://placehold.it/150x200"/>
-          <h4>Introduction to HTML</h4>
-          <h5>by John Smith</h5>
-        </div>
-        <div id="product6" class="col-1of4">
-          <img id="product6" alt="product6" src="http://placehold.it/150x200"/>
-          <h4>Introduction to HTML</h4>
-          <h5>by John Smith</h5>
-        </div>
-        <div id="product7" class="col-1of4">
-          <img id="product7" alt="product7" src="http://placehold.it/150x200"/>
-          <h4>Introduction to HTML</h4>
-          <h5>by John Smith</h5>
-        </div>
-        <div id="product8" class="col-1of4">
-          <img id="product8" alt="product8" src="http://placehold.it/150x200"/>
-          <h4>Introduction to HTML</h4>
-          <h5>by John Smith</h5>
-        </div>
-        <div id="product5" class="col-1of4">
-          <img id="product5" alt="product5" src="http://placehold.it/150x200"/>
-          <h4>Introduction to HTML</h4>
-          <h5>by John Smith</h5>
-        </div>
-        <div id="product6" class="col-1of4">
-          <img id="product6" alt="product6" src="http://placehold.it/150x200"/>
-          <h4>Introduction to HTML</h4>
-          <h5>by John Smith</h5>
-        </div>
-        <div id="product7" class="col-1of4">
-          <img id="product7" alt="product7" src="http://placehold.it/150x200"/>
-          <h4>Introduction to HTML</h4>
-          <h5>by John Smith</h5>
-        </div>
-        <div id="product8" class="col-1of4">
-          <img id="product8" alt="product8" src="http://placehold.it/150x200"/>
-          <h4>Introduction to HTML</h4>
-          <h5>by John Smith</h5>
-        </div>
-      </section>
-    </div>
-      <footer>
-        <a href="about.html">About Company</a>
-        <a href="policy.html">Policy</a>
-        <a href="service.html">Customer Service</a>
-        <p>Copyright IAT 381 Team 10 &copy; Spring 2014</p>
-      </footer>
+
+      <div class="mainContent">
+
+<!--         <section class="carousel">
+          <img alt="promotion_1" src="http://placehold.it/800x300"/>
+        </section> --><!-- end of carousel -->
+
+        <div class="productGrid">
+          <div class="filters">
+            <h6>1 - 4 of 4</h6>
+            <a href=""> <</a>
+            <a href="">1</a>
+            <a href=""> ></a>
+            <select>
+              <option value="0">---</option>
+              <option value="1">By Price</option>
+              <option value="2">By Ratings</option>
+              <option value="3">By Alphabets</option>
+            </select>
+          </div>
+
+          <div class="col-1of4">
+            <img alt="product1" src="img/gifts/mug_for_him.jpg"/>
+            <h4>Mug for Him - Happiness</h4>
+            <h6>$9.00</h6>
+          </div>
+          <div class="col-1of4">
+            <img alt="product2" src="img/gifts/mug_for_best_husband.jpg"/>
+            <h4>Mug for Best Husband Ever</h4>
+            <h6>$9.00</h6>
+          </div>
+          <div class="col-1of4">
+            <img alt="product3" src="img/gifts/mug_for_wife.jpg"/>
+            <h4>Mug for Wife</h4>
+            <h6>$9.00</h6>
+          </div>
+          <div class="col-1of4">
+            <img alt="product4" src="img/gifts/blue_gift_card.jpg"/>
+            <h4>BLUE Gift Card</h4>
+            <h6>$25.00</h6>
+          </div>
+      </div><!-- end of productGrid -->
+    </div><!-- end of MAIN CONTENT -->
+
+    <footer>
+      <a href="about.html">About Company</a>
+      <a href="policy.html">Policy</a>
+      <a href="service.html">Customer Service</a>
+      <p>Copyright IAT 381 Team 10 &copy; Spring 2014</p>
+    </footer>
+
     </div><!-- end of wrapper .centralize -->
   </body>
 </html>
