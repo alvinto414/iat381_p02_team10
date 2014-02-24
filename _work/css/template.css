@@ -77,7 +77,7 @@ h6 {
 	display: block;
 }
 
-form input {
+.member form input {
 	font-size: 1.25rem;
 	color: #000;
 	width: 20rem;
@@ -104,6 +104,14 @@ nav a:link, nav a:visited, nav a:hover, nav a:focus, nav a:active {
 	color: #FFF;
 }
 
+/* general hyperlink */
+
+a {
+	color: #245187;
+	text-decoration: none;
+	cursor: auto;
+}
+
 /* carousel */
 .carousel {
 	width: 100%;
@@ -114,6 +122,15 @@ nav a:link, nav a:visited, nav a:hover, nav a:focus, nav a:active {
 	float: right;
 	max-width: 78%;
 	margin-top: 1.5rem;
+}
+
+.productDetails {
+	float: left;
+	margin-left: 0rem;
+}
+
+.quantity {
+	width: 2rem;
 }
 
 /* product grid */
@@ -168,9 +185,13 @@ footer {
 
 }
 
-footer a, p{
+footer a, footer p{
 	font-size: 0.75rem;
 	margin-right: 1rem;
 	margin-right: auto;
 	margin-left: auto;
+}
+
+footer a {
+	color: #FFF;
 }

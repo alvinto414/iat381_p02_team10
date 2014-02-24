@@ -55,6 +55,8 @@
 
 .col-1of3 {
 	width: 33.333%;
+	float: left;
+	text-align: left;
 }
 
 /*@media (max-width: 600px) {
