@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>BLUE Bookstore</title>
+    <!-- Link to Google Fonts - Roboto -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<!-- Link to CSS -->
+	<link rel="stylesheet" type="text/css" href="css/template.css">
+  <link rel="stylesheet" type="text/css" href="css/grid.css">
+  </head>
+  <body>
+    <div id="wrapper" class="centralize">
+            <header>
+        <a href="_index.html">
+          <img id="BLUE_Logo" alt="BLUE_Logo" src="img/logo/logo.jpg"/>
+        </a>
+        <div class="member">
+          <a href="signin.html">Sign In/Register</a>
+          <a href="account.html">My Account</a>
+          <a href="shoppingcart.html">Cart (1)</a>
+          <form class="search">
+            <input type="text" name="form-search" placeholder="Search">
+          </form>
+        </div><!-- end of member -->
+      </header>
+      <div class="menu">
+        <a href="#top" id="navToggle">MENU</a>
+        <nav id="mainMenu" class="grid">
+          <div class="col-1of6">
+            <a href="_index.html" class="tab">Home</a>
+          </div>
+          <div class="col-1of6">
+          <a href="books.html" class="tab">Books</a>
+          </div>
+          <div class="col-1of6">
+          <a href="ebooks.html" class="tab">eBooks</a>
+          </div>
+          <div class="col-1of6">
+          <a href="newspapers.html" class="tab">Newspapers</a>
+          </div>
+          <div class="col-1of6">
+          <a href="gifts.html" class="tab">Gifts</a>
+          </div>
+          <div class="col-1of6">
+          <a href="events.html" class="tab">Events</a>
+          </div>
+        </nav><!-- end of mainMenu .grid -->
+      </div><!-- end of .menu -->
+
+      <aside>
+        <h3>Books</h3>
+          <ul>
+            <li class="genre">
+              <a href="">Art and Architecture</a>
+            </li>
+            <li class="genre">
+              <a href="">Biography</a>
+            </li>
+            <li class="genre">
+              <a href="">Business</a>
+            </li>
+            <li class="genre">
+              <a href="">Computers</a>
+            </li>
+            <li class="sub-genre">
+              <a href="">Advanced</a>
+            </li>
+            <li class="sub-genre">
+              <a href="">Apples</a>
+            </li>
+            <li class="sub-genre">
+              <a href="">Software</a>
+            </li>
+            <li class="genre">
+              <a href="">Entertainment</a>
+            </li>
+          </ul>
+      </aside>
+
+      <div class="mainContent">
+        <div class="productDetails">
+          <div class="col-1of3">
+            <img alt="Book cover of The Kiss" src="img/books/the_kiss.jpg"/>
+          </div>
+
+          <div class="col-1of3">
+            <h1>The Kiss</h1>
+            <h2>by Anton Chekhov</h2>
+            <h2>0 Reviews</h2>
+            <form action="reviews.html">
+              <button type="submit">Write a Review</button>
+            </form>
+          </div><!-- end of .productTitle -->
+
+          <div class="col-1of3">
+            <h2>In Stock</h2>
+            <h3>$ 11.99</h3>
+            <form action="shoppingcart.html">
+              <label for="form-quantity">Quantity: </label>
+              <input type="text" class="quantity" value="1">
+              <button type="submit">Add to cart</button>
+            </form>
+          </div><!-- end of .productCart -->
+
+        </div><!-- end of .productDetails -->
+      </div>
+
+        <div id="flushRight" class="mainContent">
+            <h3>About</h3>
+            <p>In The Kiss, a lonely, love-starved soldier keeps a secret rendezvous for another man and becomes enamored with a woman he is never to see again. The Dueldescribes the collisions between men and women in hopeless relationships, and how two men are driven to settle the score in a clandestine meeting on a bridge, pistols in hand. In all of these stories, Chekhov's brilliant portrayal of people from all walks of life and how they deal with the moral dilemmas their circumstances press upon them comes to vivid life in the listener's mind.</p>
+   
+            <h3>Details</h3>
+              <p>Size: 150cm x 10cm x 5cm</p>
+          </div>
+      </div> <!-- -->
+      <footer>
+        <a href="about.html">About Company</a>
+        <a href="policy.html">Policy</a>
+        <a href="service.html">Customer Service</a>
+        <p>Copyright IAT 381 Team 10 &copy; Spring 2014</p>
+      </footer>
+    </div><!-- end of wrapper .centralize -->
+    <script src="js/jquery.js"></script>
+    <script src="js/ui.js"></script>
+  </body>
+</html>
