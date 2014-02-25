@@ -1,9 +1,9 @@
 /* Unified CSS */
 
 body {
-		font-family: 'Roboto', sans-serif;
-		color: #000;
-		background-color: #FFF;
+	font-family: 'Roboto', sans-serif;
+	color: #000;
+	background-color: #FFF;
 }
 
 img {
@@ -11,6 +11,12 @@ img {
 	width: auto;
 	border: 0;
 	max-width: 100%;
+}
+
+@media (max-width: 500px){
+	img {
+		display: block;
+	}
 }
 
 p {
@@ -53,6 +59,11 @@ h6 {
 		overflow: hidden;
 }
 
+.rightize {
+	float: right;
+	text-align: right;
+}
+
 /* class of logo */
 .logo {
 	margin: 0rem;
@@ -84,7 +95,35 @@ h6 {
 	height: 2rem;
 }
 
+@media (max-width: 500px){
+	.member form input {
+		font-size: 1.5rem;
+		width: 24.25rem;
+		height: 2rem;
+	}
+
+	.member {
+		float: left;
+		text-align: left;
+		width: 100%;
+	}
+}
+
 /* navigation */
+#navToggle {
+	display: none;
+	background-color: black;
+	color: #FFFFFF;
+	padding: 1em 1.25em;
+	text-decoration: none;
+	margin-top: 1rem;
+	width: 100%;
+}
+
+#navToggle:hover{
+	background-color: gray;
+}
+
 nav a {
 	display: inline-block;
 	background-color: blue;
@@ -119,9 +158,20 @@ a {
 
 /* main content */
 .mainContent {
-	float: right;
-	max-width: 78%;
+	float: left;
+	width: 78%;
 	margin-top: 1.5rem;
+}
+
+@media (max-width: 500px){
+	.mainContent{
+		float: left;
+		width: 100%;
+	}
+}
+
+#flushRight {
+	float: right;
 }
 
 .productDetails {

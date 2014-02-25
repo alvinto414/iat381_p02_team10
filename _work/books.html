@@ -12,7 +12,7 @@
   </head>
   <body>
     <div id="wrapper" class="centralize">
-            <header>
+      <header>
         <a href="_index.html">
           <img id="BLUE_Logo" alt="BLUE_Logo" src="img/logo/logo.jpg"/>
         </a>
@@ -25,7 +25,9 @@
           </form>
         </div><!-- end of member -->
       </header>
-              <nav id="mainMenu" class="grid">
+      <div class="menu">
+        <a href="#top" id="navToggle">MENU</a>
+        <nav id="mainMenu" class="grid">
           <div class="col-1of6">
             <a href="_index.html" class="tab">Home</a>
           </div>
@@ -45,7 +47,7 @@
           <a href="events.html" class="tab">Events</a>
           </div>
         </nav><!-- end of mainMenu .grid -->
-      </header>
+      </div><!-- end of .menu -->
 
       <aside>
         <h3>Books</h3>
@@ -158,5 +160,7 @@
     </footer>
 
     </div><!-- end of wrapper .centralize -->
+    <script src="js/jquery.js"></script>
+    <script src="js/ui.js"></script>
   </body>
 </html>

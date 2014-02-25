@@ -14,16 +14,19 @@
     <div id="wrapper" class="centralize">
       <header>
         <a href="_index.html">
-          <img id="BLUE_Logo" alt="BLUE_Logo" src="http://placehold.it/300x100"/>
+          <img id="BLUE_Logo" alt="BLUE_Logo" src="img/logo/logo.jpg"/>
         </a>
-        <div id="profile" class="grid">
+        <div class="member">
           <a href="signin.html">Sign In/Register</a>
           <a href="account.html">My Account</a>
           <a href="shoppingcart.html">Cart (1)</a>
-          <form id="search" class="col-searchBar">
+          <form class="search">
             <input type="text" name="form-search" placeholder="Search">
           </form>
-        </div><!-- end of profile -->
+        </div><!-- end of member -->
+      </header>
+      <div class="menu">
+        <a href="#top" id="navToggle">MENU</a>
         <nav id="mainMenu" class="grid">
           <div class="col-1of6">
             <a href="_index.html" class="tab">Home</a>
@@ -44,8 +47,9 @@
           <a href="events.html" class="tab">Events</a>
           </div>
         </nav><!-- end of mainMenu .grid -->
-      </header>
-      <h6><a href="_index.html">Home</a> > Policy</h6>
+      </div><!-- end of .menu -->
+      
+      <!-- <h6><a href="_index.html">Home</a> > Policy</h6> -->
 
       <div class="mainContent">
           <h1>Policy</h1>
@@ -59,5 +63,7 @@
         <p>Copyright IAT 381 Team 10 &copy; Spring 2014</p>
       </footer>
     </div><!-- end of wrapper .centralize -->
+    <script src="js/jquery.js"></script>
+    <script src="js/ui.js"></script>
   </body>
 </html>
