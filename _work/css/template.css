@@ -72,6 +72,7 @@ h6 {
 
 /* class of member: signin, register, my account, cart */
 .member {
+	margin-top: 1rem;
 	float: right;
 	text-align: right;
 }
@@ -84,7 +85,7 @@ h6 {
 
 .search {
 	font-size: 2rem;
-	margin-top: 2.5rem;
+	margin-top: 0.5rem;
 	display: block;
 }
 
@@ -222,6 +223,29 @@ a {
 	width: 100%;
 }
 
+/*#reviews textarea, #reviews label, #reviews input{
+		margin-bottom: 0.2rem;
+		display: block;
+	}*/
+
+.textFields textarea, .textFields label, .textFields input{
+	margin-bottom: 0.2rem;
+	display: block;
+}
+
+#feedback, #reviewTitle{
+	width: 80%;
+}
+
+#feedback {
+	height: 10rem;
+}
+
+#recommend {
+	display: inline-block;
+}
+
+	
 /* fooooooooter */
 footer {
 	clear: both;
