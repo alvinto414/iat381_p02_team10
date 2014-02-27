@@ -12,14 +12,13 @@
 	}
 
 	button {
-		width: 25rem;
+		width: 15rem;
 		height: 5rem;
 	}
 
 	.centralize {
 		width: 100%;
 		max-width: 1700px;
-		max-height: 1080px;
 		margin-right: auto;
 		margin-left: auto;
 		overflow: hidden;
@@ -76,10 +75,14 @@
 		display: none;
 	}
 
-	.productGrid, .mainContent {
+	.mainContent {
 		width: 60%;
 		float: left;
 		margin-left: 2rem;
+	}
+
+	.productGrid {
+		width: 100%;
 	}
 
 	.productContent {
@@ -116,12 +119,13 @@
 		width: 50%;
 	}
 
-	#filterPages h6, #filterPages a {
+	.filters {
 		display: none;
 	}
 
-	h6 {
-		display: none;
+	#flushRight {
+		float: left;
+		max-width: 60%;
 	}
 
 	footer {

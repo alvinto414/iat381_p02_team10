@@ -30,6 +30,7 @@ p {
 
 h1 {
 	color: #132B47;
+	margin-top: 0rem;
 }
 
 h2 {
@@ -53,17 +54,55 @@ h6 {
 	color: #9e9e9e;
 }
 
-.centralize {
-		width: 100%;
-		max-width: 1000px;
-		margin-right: auto;
-		margin-left: auto;
-		overflow: hidden;
-}
+/* desktop only stuff */
+@media (max-width: 1280px) {
+	.centralize {
+			width: 100%;
+			max-width: 1000px;
+			margin-right: auto;
+			margin-left: auto;
+			overflow: hidden;
+	}
 
-.rightize {
-	float: right;
+	.rightize {
+		float: right;
+		text-align: right;
+	}
+
+	/* carousel */
+	.carousel {
+		width: 100%;
+	}
+
+	/* main content */
+	.mainContent {
+		float: left;
+		width: 78%;
+		margin-top: 1.5rem;
+	}
+
+	.filters {
+	color: #9e9e9e;
+	display: block;
+	padding-bottom: 0.5rem;
 	text-align: right;
+	font-size: 0.67rem;
+	width: 100%;
+	}
+
+	.filters h6 {
+		font-size: 0.8rem;
+		display: inline-block;
+		margin: 0;
+	}
+
+	.filters a:link, .filters a:visited, .filters a:hover, #filterPages a:focus, #filterPages a:active {
+		color: #9e9e9e;
+		padding-bottom: 0.5rem;
+		text-align: right;
+		font-size: 0.67rem;
+		width: 100%;
+	}
 }
 
 /* class of logo */
@@ -154,18 +193,6 @@ a {
 	cursor: auto;
 }
 
-/* carousel */
-.carousel {
-	width: 100%;
-}
-
-/* main content */
-.mainContent {
-	float: left;
-	width: 78%;
-	margin-top: 1.5rem;
-}
-
 @media (max-width: 500px){
 	.mainContent{
 		float: left;
@@ -200,29 +227,6 @@ a {
 .productGrid h6 {
 	margin-top: 1rem;
 	font-size: 1.25rem;
-}
-
-.filters {
-	color: #9e9e9e;
-	display: block;
-	padding-bottom: 0.5rem;
-	text-align: right;
-	font-size: 0.67rem;
-	width: 100%;
-}
-
-.filters h6 {
-	font-size: 0.8rem;
-	display: inline-block;
-	margin: 0;
-}
-
-.filters a:link, .filters a:visited, .filters a:hover, #filterPages a:focus, #filterPages a:active {
-	color: #9e9e9e;
-	padding-bottom: 0.5rem;
-	text-align: right;
-	font-size: 0.67rem;
-	width: 100%;
 }
 
 /*#reviews textarea, #reviews label, #reviews input{
