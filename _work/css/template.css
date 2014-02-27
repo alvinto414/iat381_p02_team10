@@ -103,6 +103,11 @@ h6 {
 		font-size: 0.67rem;
 		width: 100%;
 	}
+
+	#mainMenu a:hover, nav a:active, nav a:focus {
+	background-color: gray;
+	color: white;
+}
 }
 
 /* class of logo */
