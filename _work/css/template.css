@@ -206,6 +206,7 @@ a {
 }
 
 #flushRight {
+	max-width: 60%;
 	float: right;
 }
 
