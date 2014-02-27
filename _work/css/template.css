@@ -213,6 +213,19 @@ a {
 .productDetails {
 	float: left;
 	margin-left: 0rem;
+	padding: 1rem;
+}
+
+#addtocart {
+	background-color: #999999;
+	padding: 1rem;
+	margin-top: 1rem;
+}
+
+#addtocart button {
+	width: 100%;
+	margin-top: 1rem;
+	height: 2rem;
 }
 
 .quantity {
