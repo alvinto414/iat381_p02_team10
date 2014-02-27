@@ -58,6 +58,10 @@
 	text-align: left;
 }
 
+.col-1of3 strong {
+	display: block;
+}
+
 /*@media (max-width: 600px) {
 	.col-1of3 {
 		width:100%;
