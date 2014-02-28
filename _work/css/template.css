@@ -56,7 +56,20 @@ h6 {
 
 /* desktop only stuff */
 @media (max-width: 1280px) {
-	.centralize {
+	.editor-label {
+	    float: left;
+	    width: 200px;
+	}
+
+	.editor-field {
+	    margin-left: 5rem;
+	}
+
+	.editor-field input {
+	    width: 40%;  
+	}  
+	
+		.centralize {
 			width: 100%;
 			max-width: 1000px;
 			margin-right: auto;
@@ -210,6 +223,11 @@ a {
 	float: right;
 }
 
+#flushRight h4, #flushRight h5{
+	margin-top: 0.2rem;
+	margin-bottom: 0rem;
+}
+
 .productDetails {
 	float: left;
 	margin-left: 0rem;
@@ -253,9 +271,16 @@ a {
 		display: block;
 	}*/
 
-.textFields textarea, .textFields label, .textFields input{
+/*.textFields textarea, .textFields label, .textFields input{
 	margin-bottom: 0.2rem;
 	display: block;
+}*/
+
+.form {
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+
 }
 
 #feedback, #reviewTitle{
