@@ -55,7 +55,11 @@
 
 .col-1of3 {
 	width: 33.333%;
-	text-align: left;
+	text-align: center;
+}
+
+.col-1of3 p {
+	text-align: center;
 }
 
 .col-1of3 strong {
@@ -156,6 +160,11 @@ aside ul li a:link, aside ul li a:visited, aside ul li a:hover{
 @media (max-width: 500px){
 	.col-1of3 {
 		width:100%;
+	}
+
+	/* forms and contents that needs to look like table */
+	#table .col-1of3 {
+		width: 33.333%;
 	}
 
 	.col-1of4 {
