@@ -85,8 +85,19 @@
 .col-1of4 {
 	width: 25%;
 	text-align: left;
+	margin-bottom: 0rem;
+	height: auto;
+}
+
+.col-1of4 img{
+	max-width: 70%;
+}
+
+.col-1of4 h6{
+	margin-top: 1rem;
 	margin-bottom: 1rem;
 }
+
 
 /*@media (max-width: 600px){
 	.col-1of4 {
