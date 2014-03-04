@@ -56,25 +56,25 @@ h6 {
 
 /* desktop only stuff */
 @media (max-width: 1280px) {
+	
 	.form {
-	width: 50%;
-	margin-right: auto;
-	margin-left: auto;
-
-}
-
-.editor-label {
-	    float: left;
-	    width: 200px;
+		width: 75%;
+		margin-right: auto;
+		margin-left: auto;
 	}
 
-.editor-field {
-    margin-left: 5rem;
-}
+	.editor-label {
+		float: left;
+		width: 200px;
+	}
 
-.editor-field input {
-    width: 40%;  
-}  
+	.editor-field {
+	    margin-left: 5rem;
+	}
+
+	.editor-field input {
+	    width: 40%;  
+	}  
 	
 		.centralize {
 			width: 100%;
@@ -133,12 +133,12 @@ h6 {
 	}
 
 	.filters {
-	color: #9e9e9e;
-	display: block;
-	padding-bottom: 0.5rem;
-	text-align: right;
-	font-size: 0.67rem;
-	width: 100%;
+		color: #9e9e9e;
+		display: block;
+		padding-bottom: 0.5rem;
+		text-align: right;
+		font-size: 0.67rem;
+		width: 100%;
 	}
 
 	.filters h6 {
@@ -156,9 +156,9 @@ h6 {
 	}
 
 	#mainMenu a:hover, nav a:active, nav a:focus {
-	background-color: gray;
-	color: white;
-}
+		background-color: gray;
+		color: white;
+	}
 }
 
 /* class of logo */
@@ -207,30 +207,28 @@ h6 {
 	}
 
 	.form {
-	width: 100%
-
+		width: 100%
 	}
 
 	.editor-label {
-		    float: left;
-		    width: 200px;
-		}
+		float: left;
+		width: 200px;
+	}
 
 	.editor-field {
-	    margin: 0rem;
-	    width: 100%
-
+		margin: 0rem;
+	   	width: 100%
 	}
 
 	.editor-field input {
 	    width: 100%;  
-	}  
+	}
 }
 
 /* navigation */
 #navToggle {
 	display: none;
-	background-color: black;
+	background-color: #666666;
 	color: #FFFFFF;
 	padding: 1em 1.25em;
 	text-decoration: none;

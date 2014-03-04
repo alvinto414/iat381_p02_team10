@@ -60,16 +60,16 @@
           <img alt="Billing Address" src="icons/checkout_billing_address.jpg">
         </div> <!-- end of grid -->
 
-        <div>
+        <div class="form">
           <form id="radioform">
-            <input type="radio" name="address">Same as shipping address
-          </form>
-          <form id="radioform">
-            <input type="radio" name="address">New billing address
-          </form>
+            <div class="col-1of2">
+              <input type="radio" name="address">Same as shipping address
+            </div>
 
-                    <form class="form">
-            <div class="editor-label">
+            <div class="col-1of2">
+              <input type="radio" name="address">New billing address
+
+              <div class="editor-label">
               <label for="form-fname">First name: </label>
             </div>
             <div class="editor-field">
@@ -110,6 +110,7 @@
             </div>
             <div class="editor-field">
               <input type="text" name="form-phone">
+            </div>
             </div>
           </form>
         </div>

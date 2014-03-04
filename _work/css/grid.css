@@ -10,6 +10,19 @@
 	width: 50%;
 }
 
+.form .col-1of2 {
+	text-align: left;
+}
+
+.form .col-1of2 .editor-label {
+	margin-left: 1.5rem;
+	margin-top: 0.5rem;
+}
+
+.form .col-1of2 .editor-field {
+	margin-top: 0.5rem;
+}
+
 @media (max-width: 600px){
 	.logo {
 		width: 100%;
