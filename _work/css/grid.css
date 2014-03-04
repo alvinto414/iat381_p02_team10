@@ -69,7 +69,8 @@
 
 .col-1of3 {
 	width: 33.333%;
-	text-align: center;
+	/*text-align: center;*/
+	margin-left: 0rem;
 }
 
 .col-1of3 p {
