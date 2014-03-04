@@ -305,15 +305,35 @@ a {
 }
 
 .productDetails {
+	display: inline-block;
 	float: left;
 	margin-left: 0rem;
-	padding: 1rem;
+	padding-left: 1rem;
+}
+
+.productDetails h1{
+	margin-top: 0rem;
+	margin-bottom: 0rem;
+	font-size: 1.5rem;
+}
+
+.productDetails h2{
+	margin-top: 0rem;
+	font-size: 1rem;
+}
+
+.productDetails h3{
+	margin-top: 0rem;
+	font-size: 1rem;
 }
 
 #addtocart {
+	display: inline-block;
 	background-color: #999999;
-	padding: 1rem;
-	margin-top: 1rem;
+	padding: 0.5rem;
+	margin-top: 0rem;
+	text-align: right;
+	float: right;
 }
 
 #addtocart button {
