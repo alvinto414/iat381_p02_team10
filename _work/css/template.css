@@ -256,6 +256,10 @@ h6 {
 	.editor-field input {
 	    width: 100%;  
 	}
+
+	.editor-field textarea {
+	    width: 100%;  
+	}
 }
 
 /* navigation */
