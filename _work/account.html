@@ -49,35 +49,59 @@
         </nav><!-- end of mainMenu .grid -->
       </div><!-- end of .menu -->
       
-      <div class="mainContent">
-        <div id="register" class="grid">
-          <h3>Account Info</h3>
-        <form method="GET" action="register.php" id="register">
-          <label>User ID: </label>
-          <input type="text" id="id" name="id" placeholder="aaaa">
+      <h6><a href="_index.html">Home</a> > Account Information</h6>
 
-          <label>Password: </label>
-          <input type="text" id="pass" name="pass" placeholder="********">
-
-          <label for="fname">First Name: </label>
-          <input type="text" id="fname" name="fname" placeholder="input first name">
-
-          <label for="lname">Last Name: </label>
-          <input type="text" id="lname" name="lname" placeholder="input last name">
-
-          <label for="email">Email: </label>
-          <input type="text" id="email" name="email" placeholder="input email">
-
-          <label for="phone">Contact No.: </label>
-          <input type="text" id="phone" name="phone" placeholder="input contact number">
-
-          <label for="school">Billing Address: </label>
-          <input type="text" id="school" name="school" placeholder="input school name">
-
-          <input type="submit" name="submit" value="update">
-        </form> <!-- end of form -->
-      </div>
-      </div>
+      <div id="purchaseform">
+          <form class="form" action="_index.html">
+            <div class="editor-label">
+              <label for="form-fname">First name: </label>
+            </div>
+            <div class="editor-field">
+              <input type="text" name="form-fname">
+            </div>
+            <div class="editor-label">
+              <label for="form-lname">Last name: </label>
+            </div>
+            <div class="editor-field">
+              <input type="text" name="form-lname">
+            </div>
+            <div class="editor-label">
+              <label for="form-address">Address: </label>
+            </div>
+            <div class="editor-field">
+              <input type="text" name="form-address">
+            </div>
+            <div class="editor-label">
+              <label for="form-city">City: </label>
+            </div>
+            <div class="editor-field">
+              <input type="text" name="form-city">
+            </div>
+            <div class="editor-label">
+              <label for="form-province">Province: </label>
+            </div>
+            <div class="editor-field">
+              <input type="text" name="form-province">
+            </div>
+            <div class="editor-label">
+            <label for="form-province">Postal code: </label>
+            </div>
+            <div class="editor-field">
+              <input type="text" name="form-postal code">
+            </div>
+            <div class="editor-label">
+              <label for="form-phone">Phone number: </label>
+            </div>
+            <div class="editor-field">
+              <input type="text" name="form-phone">
+            </div>
+<!--             <div class="grid"> -->
+              <div class="rightize">
+                  <button type="submit">Update</button>
+              </div>
+<!--             </div> -->
+          </form>
+       </div>
       <footer>
         <a href="about.html">About Company</a>
         <a href="policy.html">Policy</a>
