@@ -68,12 +68,21 @@ h6 {
 		width: 200px;
 	}
 
+	.col-1of2 .editor-label {
+		float: left;
+		width: 160px;
+	}
+
+	.col-1of2 .editor-field input {
+	    width: 60%;  
+	}
+
 	.editor-field {
 	    margin-left: 5rem;
 	}
 
 	.editor-field input {
-	    width: 40%;  
+	    width: 45%;  
 	}  
 	
 		.centralize {
@@ -84,9 +93,16 @@ h6 {
 			overflow: hidden;
 	}
 
+	.leftize {
+		float: left;
+		text-align: left;
+		display: inline-block;
+	}
+
 	.rightize {
 		float: right;
 		text-align: right;
+		display: inline-block;
 	}
 
 	/* carousel */
