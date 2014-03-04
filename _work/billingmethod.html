@@ -62,61 +62,79 @@
         </div> <!-- end of grid -->
 
         <div class="form">
-          <form id="radioform">
-            <input type="radio" name="card">Visa
-          </form>
-          <!-- <form id="infoForm" class="textFields">
-            <label for="form-name">Card holder's name: </label>
-            <input type="text" name="form-name">
-            <label for="form-cardnum">Card number: </label><input type="text" name="form-cardnum">
-            <label for="form-cvn">CVN number: </label><input type="text" name="form-cvn">
-            <label for="form-date">Expiry date: </label><input type="text" name="form-date">
-          </form> -->
-          <form>
-            <div class="editor-label">
-              <label for="form-cHN">Card holder's name: </label>
-            </div>
-            <div class="editor-field">
-              <input type="text" name="form-cHN">
-            </div>
-            <div class="editor-label">
-              <label for="form-CN">Card number: </label>
-            </div>
-            <div class="editor-field">
-              <input type="text" name="form-CN">
-            </div>
-            <div class="editor-label">
-              <label for="form-cvnN">CVN number: </label>
-            </div>
-            <div class="editor-field">
-              <input type="text" name="form-cvnN">
-            </div>
-            <div class="editor-label">
-              <label for="form-edate">Expiry date: </label>
-            </div>
-            <div class="editor-field">
-              <input type="text" name="form-edate">
-            </div>
-          </form>
-          <form id="radioform">
-            <input type="radio" name="card">Master Card
-            <input type="radio" name="card">American Express
-          </form>
-        </div>
+
+            <form id="radioform">
+
+              <div class="col-1of2">
+                <input type="radio" name="card"><p>Visa</p>
+                <div class="editor-label">
+                  <label for="form-cHN">Card holder's name: </label>
+                </div>
+                <div class="editor-field">
+                  <input type="text" name="form-cHN">
+                </div>
+                <div class="editor-label">
+                  <label for="form-CN">Card number: </label>
+                </div>
+                <div class="editor-field">
+                  <input type="text" name="form-CN">
+                </div>
+                <div class="editor-label">
+                  <label for="form-cvnN">CVN number: </label>
+                </div>
+                <div class="editor-field">
+                  <input type="text" name="form-cvnN">
+                </div>
+                <div class="editor-label">
+                  <label for="form-edate">Expiry date: </label>
+                </div>
+                <div class="editor-field">
+                  <input type="text" name="form-edate">
+                </div>
+              </div><!-- end of .col-1of2 -->
+
+              <div class="col-1of2">
+                <input type="radio" name="card"><p>Master Card</p>
+                <div class="editor-label">
+                  <label for="form-cHN">Card holder's name: </label>
+                </div>
+                <div class="editor-field">
+                  <input type="text" name="form-cHN">
+                </div>
+                <div class="editor-label">
+                  <label for="form-CN">Card number: </label>
+                </div>
+                <div class="editor-field">
+                  <input type="text" name="form-CN">
+                </div>
+                <div class="editor-label">
+                  <label for="form-cvnN">CVN number: </label>
+                </div>
+                <div class="editor-field">
+                  <input type="text" name="form-cvnN">
+                </div>
+                <div class="editor-label">
+                  <label for="form-edate">Expiry date: </label>
+                </div>
+                <div class="editor-field">
+                  <input type="text" name="form-edate">
+                </div>
+              </div><!-- end of .col-1of2 -->
+            </form>
 
         <div class="grid">
-          <div class="col-1of5">
+          <div class="leftize">
             <form action="billingaddress.html">
              <button type="submit">Back</button>
             </form>
           </div>
-          <div class="col-1of2">
+          <div class="rightize">
             <form action="orderreview.html">
              <button type="submit">Continue</button>
             </form>
           </div>
         </div><!-- end of .grid -->
-       </div><!-- end of shippingaddress -->
+       </div><!-- end of .form -->
 
       <footer>
         <a href="about.html">About Company</a>

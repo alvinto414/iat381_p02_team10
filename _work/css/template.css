@@ -63,6 +63,10 @@ h6 {
 		margin-left: auto;
 	}
 
+	.form h5 {
+		margin: 0rem;
+	}
+
 	.editor-label {
 		float: left;
 		width: 200px;

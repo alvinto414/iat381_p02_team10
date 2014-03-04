@@ -61,8 +61,8 @@
           <img alt="Shipping Address" src="icons/checkout_shipping_address.jpg">
         </div> <!-- end of grid -->
 
-        <div>
-          <form class="form" action="billingaddress.html">
+        <div class="form">
+          <form action="billingaddress.html">
             <div class="editor-label">
               <label for="form-fname">First name: </label>
             </div>
@@ -105,13 +105,17 @@
             <div class="editor-field">
               <input type="text" name="form-phone">
             </div>
+          </form>
             <div class="leftize">
+              <form action="shoppingcart.html">
                   <button type="submit" onClick="shoppingcart.html">Back</button>
+                </form>
             </div>
             <div class="rightize">
-                  <button type="submit">Continue to Billing Address</button>
+              <form action="billingaddress.html">
+                  <button type="submit">Continue</button>
+                </form>
             </div>
-          </form>
         </div>
        </div><!-- end of shippingaddress -->
 

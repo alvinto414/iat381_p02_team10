@@ -107,6 +107,11 @@
 	height: auto;
 }
 
+.form .col-1of4 {
+	text-align: left;
+	margin-bottom: 1rem;
+}
+
 .col-1of4 img{
 	max-width: 70%;
 }

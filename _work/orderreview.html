@@ -49,66 +49,61 @@
         </nav><!-- end of mainMenu .grid -->
       </div><!-- end of .menu -->
       <h6><a href="_index.html">Home</a> > Check out</h6>
-
-      <div id="purchaseform">
-        <div id="progressbar" class="grid">
-          <!-- <div class="col-1of5">Shipping Address >>>>> </div>
-          <div class="col-1of5">Billing Address >>>>> </div>
-          <div class="col-1of5">Billing Method >>>>> </div>
-          <div class="col-1of5" id="current">Order Return >>>>> </div>
-          <div class="col-1of5">Complete</div> -->
+      
+      <div id="progressbar" class="grid">
           <img alt="Order Review" src="icons/checkout_order_review.jpg">
-        </div> <!-- end of grid -->
+      </div> <!-- end of grid -->
 
-        <div id="purchaseReview">
-          <div id="cartsummary" class="rightize">
-            <h2>Cart Summary</h2>
-            <hr>
-            <h5>Introduction to HTML by Joe Smith</h5>
-            <h5>Quantity: 1</h5>
-            <h5>Price: $14.00</h5>
-          </div>
+        <div class="form">
+          <div class="grid">
+            <div id="shippingaddress" class="col-1of4">
+              <h3>Shipping Address</h3>
+              <h5>John Smith</h5>
+              <h5>8888 University Dr</h5>
+              <h5>Burnaby, BC</h5>
+              <h5>V5A 1S6</h5>
+              <h5>(604)123-4567</h5>
+            </div><!-- end of shipping address -->
 
-          <div id="shippingaddress">
-            <h3>Shipping Address</h3>
-            <h5>John Smith</h5>
-            <h5>8888 University Dr</h5>
-            <h5>Burnaby, BC</h5>
-            <h5>V5A 1S6</h5>
-            <h5>(604)123-4567</h5>
-          </div><!-- end of shipping address -->
+            <div id="billingaddress" class="col-1of4">
+              <h3>Billing Address</h3>
+              <h5>John Smith</h5>
+              <h5>8888 University Dr</h5>
+              <h5>Burnaby, BC</h5>
+              <h5>V5A 1S6</h5>
+              <h5>(604)123-4567</h5>
+            </div><!-- end of shipping address -->
 
-          <div id="billingaddress">
-            <h3>Billing Address</h3>
-            <h5>John Smith</h5>
-            <h5>8888 University Dr</h5>
-            <h5>Burnaby, BC</h5>
-            <h5>V5A 1S6</h5>
-            <h5>(604)123-4567</h5>
-          </div><!-- end of shipping address -->
+            <div id="billingmethod" class="col-1of4">
+              <h3>Billing Method</h3>
+              <h5>John Smith</h5>
+              <h5>8888-8888-8888-8888</h5>
+              <h5>(500)</h5>
+              <h5>05/16</h5>
+            </div><!-- end of shipping address -->
 
-          <div id="billingmethod">
-            <h3>Billing Method</h3>
-            <h5>John Smith</h5>
-            <h5>8888-8888-8888-8888</h5>
-            <h5>(500)</h5>
-            <h5>05/16</h5>
-          </div><!-- end of shipping address -->
-        </div><!-- end of purchaseReview -->
+            <div id="cartsummary" class="col-1of4">
+              <h3>Cart Summary</h3>
+              <h5>Introduction to HTML by Joe Smith</h5>
+              <h5>Quantity: 1</h5>
+              <h5>Price: $14.00</h5>
+            </div>
+          </div><!-- end of .grid -->
 
-        <div class="grid">
-          <div class="col-1of5">
-            <form action="billingmethod.html">
-             <button type="submit">Back</button>
-            </form>
-          </div>
-          <div class="col-1of2">
-            <form action="complete.html">
-             <button type="submit">Submit Order</button>
-            </form>
-          </div>
-        </div><!-- end of .grid -->
-       </div><!-- end of shippingaddress -->
+          <div class="grid">
+            <div class="leftize">
+              <form action="billingmethod.html">
+               <button type="submit">Back</button>
+              </form>
+            </div>
+            <div class="rightize">
+              <form action="complete.html">
+               <button type="submit">Submit Order</button>
+              </form>
+            </div>
+          </div><!-- end of .grid -->
+        
+       </div><!-- end of .form -->
 
       <footer>
         <a href="about.html">About Company</a>
