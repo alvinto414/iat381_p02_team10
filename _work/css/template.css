@@ -67,6 +67,10 @@ h6 {
 		margin: 0rem;
 	}
 
+	.form img {
+		max-width: 50%;
+	}
+
 	.editor-label {
 		float: left;
 		width: 200px;

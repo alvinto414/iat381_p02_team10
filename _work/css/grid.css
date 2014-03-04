@@ -81,6 +81,10 @@
 	display: block;
 }
 
+.col-1of3 img {
+	max-width: 15%;
+}
+
 /*@media (max-width: 600px) {
 	.col-1of3 {
 		width:100%;
