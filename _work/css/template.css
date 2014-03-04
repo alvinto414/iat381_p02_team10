@@ -91,7 +91,16 @@ h6 {
 
 	.editor-field input {
 	    width: 45%;  
-	}  
+	}
+
+		.editor-field textarea {
+	    min-width: 45%;
+	    min-height: 10rem;
+	}
+
+	#YesCheckbox {
+		width: 1rem;
+	}
 	
 		.centralize {
 			width: 100%;
