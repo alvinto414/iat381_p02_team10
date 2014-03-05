@@ -43,8 +43,13 @@
 	}
 
 	form input{
-	width: 100%;
+		width: 100%;
 	}
+
+	input[type=radio] {
+		width: 1rem;
+	}
+
 }
 
 .grid:after {
@@ -59,7 +64,7 @@
 	box-sizing: border-box;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
 	.col-1of2 {
 		width: 100%;
 	}
@@ -181,7 +186,7 @@ aside ul li a:link, aside ul li a:visited, aside ul li a:hover{
 }*/
 
 
-@media (max-width: 500px){
+@media (max-width: 600px){
 	.col-1of3 {
 		width:100%;
 	}
