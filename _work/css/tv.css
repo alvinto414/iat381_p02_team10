@@ -36,6 +36,31 @@
 		display: block;
 	}
 
+	.carousel h1 {
+		font-size: 13rem;
+		margin-bottom: -5rem;
+	}
+
+	.carousel p {
+		font-size: 2.75rem;
+		margin-left: 0.8rem;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	#discountText, #discountIMG {
+		display: inline-block;
+	}
+
+	#discountIMG {
+		width: 55%;
+	}
+
+	#discountIMG img{
+		max-width: 95%;
+		margin-left: 1rem;
+	}
+
 	.member a
 	{
 		font-size: 1rem;
