@@ -170,6 +170,23 @@ h6 {
 		margin-top: 1.5rem;
 	}
 
+	#contactUs h5{
+		margin: 0rem;
+	}
+
+	#contactUs ul{
+	 	margin: 0rem;
+	 	margin-bottom: 1rem;
+	 	font-size: 0.9rem;
+	 }
+
+	 #contactUs ul li {
+	 	margin: 0rem;
+	 	color: #9e9e9e;
+	 	font-size: 0.9rem;
+	 	list-style: none;
+	 }
+
 	.filters {
 		color: #9e9e9e;
 		display: block;
