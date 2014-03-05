@@ -138,14 +138,15 @@ h6 {
 	}
 
 	.carousel h1 {
-		font-size: 14vw;
-		margin-bottom: -5vw;
+		font-size: 10rem;
+		margin-bottom: -4rem;
 	}
 
 	.carousel p {
-		font-size: 4vw;
-		margin-top: 2vw;
-		margin-bottom: 2vw;
+		font-size: 2.1rem;
+		margin-left: 0.8rem;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
 	}
 
 /*	.carousel img {
@@ -154,7 +155,7 @@ h6 {
 	}*/
 
 	#discountIMG {
-		width: 50vw;
+		width: 55%;
 	}
 
 	#discountIMG img{
