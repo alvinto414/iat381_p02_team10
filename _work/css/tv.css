@@ -122,6 +122,62 @@
 		font-size: 2rem;
 	}
 
+	#progressbar {
+		display: inline-block;
+	}
+
+	.form {
+		width: 70%;
+		float: right;
+	}
+
+	.form h5 {
+		margin: 0rem;
+	}
+
+	.form img {
+		max-width: 50%;
+	}
+
+	.editor-label {
+		float: left;
+		width: 200px;
+	}
+
+	.col-1of2 .editor-label {
+		float: left;
+		width: 16rem;
+	}
+
+	.col-1of2 .editor-field input {
+	    width: 80%;  
+	}
+
+	.editor-field {
+	    margin-left: 5rem;
+	}
+
+	.editor-field input {
+	    width: 60%;  
+	}
+
+	.editor-field textarea {
+	    min-width: 60%;
+	    min-height: 10rem;
+	}
+
+	.leftize {
+		float: left;
+		text-align: left;
+		display: inline-block;
+	}
+
+	.rightize {
+		float: right;
+		text-align: right;
+		display: inline-block;
+	}
+
 	#contactUs{
 		float: left;
 		margin-left: 4rem;

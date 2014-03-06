@@ -106,12 +106,12 @@ h6 {
 		width: 1rem;
 	}
 	
-		.centralize {
-			width: 100%;
-			max-width: 1000px;
-			margin-right: auto;
-			margin-left: auto;
-			overflow: hidden;
+	.centralize {
+		width: 100%;
+		max-width: 1000px;
+		margin-right: auto;
+		margin-left: auto;
+		overflow: hidden;
 	}
 
 	.leftize {
