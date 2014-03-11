@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLUE Bookstore</title>
+    <!-- Link to Google Fonts - Roboto -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<!-- Link to CSS 
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/desktop.css">-->
+  <link rel="stylesheet" type="text/css" href="css/grid.css">
+  <link rel="stylesheet" type="text/css" href="css/template.css">
+  </head>
+  <body>
+    <div id="wrapper" class="centralize">
+      <header>
+        <a href="index.html">
+          <img id="BLUE_Logo" alt="BLUE_Logo" src="img/logo/logo.jpg"/>
+        </a>
+        <div class="member">
+          <a href="signin.html">Sign In/Register</a>
+          <a href="account.html">My Account</a>
+          <a href="shoppingcart.html">Cart (1)</a>
+          <form class="search">
+            <input type="text" name="form-search" placeholder="Search">
+          </form>
+        </div><!-- end of member -->
+      </header>
+      <div class="menu">
+        <a href="#top" id="navToggle">MENU</a>
+        <nav id="mainMenu" class="grid">
+          <div class="col-1of6">
+            <a href="index.html" class="tab">Home</a>
+          </div>
+          <div class="col-1of6">
+          <a href="books.html" class="tab">Books</a>
+          </div>
+          <div class="col-1of6">
+          <a href="ebooks.html" class="tab">eBooks</a>
+          </div>
+          <div class="col-1of6">
+          <a href="newspapers.html" class="tab">Newspapers</a>
+          </div>
+          <div class="col-1of6">
+          <a href="gifts.html" class="tab">Gifts</a>
+          </div>
+          <div class="col-1of6">
+          <a href="events.html" class="tab">Events</a>
+          </div>
+        </nav><!-- end of mainMenu .grid -->
+      </div><!-- end of .menu -->
+      <section class="carousel">
+        <a href="discounted_books.html">
+          <div id="discountText">
+            <h1>50%</h1>
+            <h1>OFF</h1>
+            <p>on selected books</p>
+          </div>
+          <div id="discountIMG">
+            <div class="col-1of3">
+              <img alt="promotion image 1" src="img/books/moral_relativism.jpg">
+            </div>
+            <div class="col-1of3">
+              <img alt="promotion image 1" src="img/books/the_brief_history_of_the_dead.jpg">
+            </div>
+            <div class="col-1of3">
+              <img alt="promotion image 1" src="img/books/the_curious_case_of_benjamin_button.jpg">
+            </div>
+          </div>
+        </a>
+        <!-- <img alt="promotion_1" src="img/carousel/50OFF.jpg"/> -->
+      </section><!-- end of carousel -->
+      <section id="newArrival" class="productGrid">
+        <h2>New Arrivals</h2>
+        <div class="col-1of4">
+          <a href="introduction_to_html.html"><img alt="product1" src="img/books/introduction_to_html.jpg"/>
+          <h4>Introducing HTML5</h4>
+          <h5>by Bruce Lawson</h5>
+          <h6>$14.00</h6></a>
+        </div>
+        <div class="col-1of4">
+          <a href="introduction_to_html.html"><img alt="product2" src="img/books/low_boy.jpg"/>
+          <h4>Lowboy</h4>
+          <h5>by John Wray</h5>
+          <h6>$20.99</h6></a>
+        </div>
+        <div class="col-1of4">
+          <a href="the_kiss.html"><img alt="product3" src="img/books/the_kiss.jpg"/>
+          <h4>The Kiss</h4>
+          <h5>by Anton Chekhov</h5>
+          <h6>$11.99</h6></a>
+        </div>
+        <div class="col-1of4">
+          <a href="the_kiss.html"><img alt="product4" src="img/books/the_microscope_and_the_eye.jpg"/>
+          <h4>The Microscope and the Eye</h4>
+          <h5>by Jutta Schikore</h5>
+          <h6>$14.89</h6></a>
+        </div>
+        <hr>
+      </section>
+      <section id="hottestProducts" class="productGrid">
+        <h2>Hottest Products</h2>
+        <div class="col-1of4">
+          <a href="the_kiss.html"><img alt="product3" src="img/books/the_kiss.jpg"/>
+          <h4>The Kiss</h4>
+          <h5>by Anton Chekhov</h5>
+          <h6>$11.99</h6></a>
+        </div>
+        <div class="col-1of4">
+          <a href="the_kiss.html"><img alt="product6" src="img/books/who_is_conrad_hirst.jpg"/>
+          <h4>Who Is Conrad Hirst</h4>
+          <h5>by Kevin Wignall</h5>
+          <h6>$12.75</h6></a>
+        </div>
+        <div  class="col-1of4">
+          <a href="the_kiss.html"><img alt="product7" src="img/books/collected_poems_of_tennessee_williams.jpg"/>
+          <h4>The Collected Poems of Tennessee Williams</h4>
+          <h5>by Tennessee Williams</h5>
+          <h6>$13.25</h6></a>
+        </div>
+        <div class="col-1of4">
+          <a href="the_kiss.html"><img alt="product8" src="img/books/spade_and_archer.jpg"/>
+          <h4>Spade & Archer</h4>
+          <h5>by Joe Gores</h5>
+          <h6>$9.89</h6></a>
+        </div>
+      </section>
+
+      <footer>
+        <a href="about.html">About Company</a>
+        <a href="policy.html">Policy</a>
+        <a href="service.html">Customer Service</a>
+        <p>Copyright IAT 381 Team 10 &copy; Spring 2014</p>
+      </footer>
+    </div><!-- end of wrapper .centralize -->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/ui.js"></script>
+
+  </body>
+</html>
